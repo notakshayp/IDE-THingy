@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            COdeIt
+        </title>
+    </head>
+    <body>
+        <textarea name="code" form="codeform" method='post'>
+            Enter COde here...
+        </textarea>
+
+        <br>
+
+        <textarea name="input" form="codeform" method='post' style="height:auto">
+           STDIN INputs here ...
+        </textarea>
+        <form action="/rungcc" id="codeform" method='post'>
+            Submission ID Tag: <input type="text" required="true" name="tag">
+            <input type="submit" name="Submit Code" value="CoDe">
+        </form>
+       
+
+    </body>
+</html>
