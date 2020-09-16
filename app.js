@@ -7,7 +7,7 @@ var childprocess = require("child_process");
 var bodyParser = require("body-parser");
 var app = express();
 
-app.set("port", process.env.POST || 2131);
+app.set("port", process.env.PORT || 2131);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
